@@ -159,6 +159,7 @@ display: block;
 /*inicio contacto*/
 .contacto{
     display: flex;
+    gap: 30px;
 }
 
 .contacto div{
@@ -174,13 +175,15 @@ display: block;
     font-size: 13px;
 }
 
-.formulario p{
+/* .formulario p{
     display: flex;
-}
+} */
 
 .formulario p label{
     min-width: 100px;
-    background-color: yellow;
+    background-color: yellow; 
+    display: flex;
+    align-items: center;
 }
 
 .formulario p input,
@@ -191,12 +194,17 @@ display: block;
     border-radius: 5px;
     padding: 6px;
     font-size: 14px;
+    box-sizing: border-box;
 }
 
 .formulario p textarea{
     resize: none;
     height: 150px;
 
+}
+.formulario p:nth-child(4){
+    /* background-color: orange; */
+    align-items: start;
 }
 
 .formulario input[type="submit"] {
@@ -206,6 +214,10 @@ display: block;
     box-shadow: 0 0 10px  rgba(0,0,0,0.3);
     color: white;
     cursor: pointer;
-    position: relative;
-    left: 100px;
+    /* position: relative;
+    left: 100px; */
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: #2e64a1;
 }
