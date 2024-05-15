@@ -158,6 +158,34 @@ display: block;
 .persona p{
     font-size: 12px;
 }
+/*fin de nosotros*/
+
+/*inicio de servicios*/
+.servicio{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 16px 0;
+    display: flex;
+    gap: 30px;
+}
+.servicio img{
+    border-radius: 13px;
+}
+.servicio .info h4{
+    color: #2e64a1;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid #2e64a1;
+    padding: 10px;
+}
+.servicio .info p{
+    font-size: 13px;
+    line-height: 25px;
+}
+
+/*fin de servicios*/
 
 /*inicio contacto*/
 .contacto{
