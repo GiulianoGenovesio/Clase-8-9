@@ -59,13 +59,16 @@ footer{
 }
 
 .holder{
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 h2{
     color: #2e64a1;
     font-weight: 400;
+}
+.homeimg img{
+    max-width: 100%;
 }
 
 .columnas {
@@ -220,4 +223,49 @@ display: block;
 
 .formulario input[type="submit"]:hover{
     background-color: #2e64a1;
+}
+
+/*inicio de @media*/
+@media screen and (max-width: 550px) {
+    .columnas{flex-direction: column;}
+    .bienvenidos,
+    .testimonios{
+        width: 100%;
+    }
+    .holder{
+        padding: 0 16px;
+    }
+    .personas{
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .persona{
+        width: 47%;
+    }
+    .contacto{
+        flex-direction: column;
+    }
+    header .holder{
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 0;
+    }
+    header h1{
+        position: static;
+        margin-left: 10px;
+        font-size: 27px;
+    }
+    header img{
+        max-width: 80px;
+    }
+} /*fin de @media 550*/
+
+@media screen and (max-width: 320px){
+nav ul.holder{
+    flex-direction: column;
+    padding: 0;
+    
+}
 }
