@@ -191,12 +191,12 @@ display: block;
 /*fin de servicios*/
 
 /*inicio contacto*/
-.contacto{
+.Contacto{
     display: flex;
     gap: 30px;
 }
 
-.contacto div{
+.Contacto div{
     width: 100%;
 
 }
