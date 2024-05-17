@@ -166,10 +166,13 @@ display: block;
     border-radius: 10px;
     margin: 16px 0;
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 .servicio img{
     border-radius: 13px;
+    max-width: 225px;
+    display: block;
 }
 .servicio .info h4{
     color: #2e64a1;
