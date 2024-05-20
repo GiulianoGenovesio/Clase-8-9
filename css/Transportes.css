@@ -168,6 +168,7 @@ display: block;
     display: flex;
     align-items: center;
     gap: 30px;
+    padding: 10px;
 }
 .servicio img{
     border-radius: 13px;
@@ -186,6 +187,9 @@ display: block;
 .servicio .info p{
     font-size: 13px;
     line-height: 25px;
+}
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
 }
 
 /*fin de servicios*/
